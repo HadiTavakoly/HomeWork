@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomeWork 3</title>
+  </head>
+  <body>
+    <form>
+      <label for="name" class="lname">نام و نام خانوادگی</label>
+      <input
+        type="text"
+        placeholder="نام و نام خانوادگی خود را وارد کنید"
+        id="iname"
+      />
+      <br />
+      <br />
+      <p>تسلط به زبان</p>
+      <input class="lcheckbox" type="checkbox" id="english" name="lang" />
+      <label class="label" for="english">انگلیسی</label>
+      <input class="lcheckbox" type="checkbox" id="persian" name="lang" />
+      <label class="label" for="persian">فارسی</label>
+      <input class="lcheckbox" type="checkbox" id="spanish" name="lang" />
+      <label class="label" for="spanish">اسپانیایی</label>
+      <br /><br />
+      <p>جنسیت</p>
+      <input type="radio" id="woman" name="gender" />
+      <label for="man">مرد</label>
+      <input type="radio" id="man" name="gender" />
+      <label for="woman">زن</label>
+      <br />
+      <br />
+      <table>
+        <tr>
+          <th>نام</th>
+          <th>نام خانوادگی</th>
+          <th>آدرس</th>
+        </tr>
+        <tr>
+            <td>هادی</td>
+            <td>توکلی</td>
+            <td>اصفهان فلاورجان بهاران</td>
+        </tr>
+        <tr>
+            <td>علی</td>
+            <td>غلامی</td>
+            <td>اصفهان بزرگمهر </td>
+        </tr>
+        <tr>
+            <td>مریم</td>
+            <td>توکلی فر</td>
+            <td>اصفهان</td>
+        </tr>
+        <tr>
+            <td>محمد علی</td>
+            <td>داوری</td>
+            <td>فلاورجان</td>
+        </tr>
+      </table>
+    </form>
+  </body>
+  <style>
+    body{ direction: rtl;}
+    .lname ,p ,label{font-size: larger; padding-left: 20px; }
+    #iname{padding: 15px; border-radius: 20px; border: 5px blueviolet dotted; font-size: large;}
+    .lcheckbox{padding: 12px; }
+    table{background-color: blanchedalmond;  border-radius: 20px; padding: 10px; align-self: center; width: 100%;  }
+    th{background-color:darkcyan; color: white; padding: 20px; border-radius: 20px; font-size: larger;}
+    td{border: 2px solid indianred; padding: 20px; border-radius: 20px; font-weight: bold;}
+  </style>
+</html>
